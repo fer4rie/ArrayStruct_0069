@@ -6,3 +6,6 @@ int main (){
     int dataku[5] = {10, 20, 30, 40, 50};
      //deklrasi tanpa inisialisasi
     int datamu[5];
+    int x;
+    //cara membaca array dataku
+    cout << "Data ke - 3 : " << dataku[2] << endl;"
