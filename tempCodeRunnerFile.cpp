@@ -1,21 +1,4 @@
-#include <iostream>
-using namespace std;
-
-struct DetailAlamat{
-    string desa;
-    string kota;
-};
-struct orang{
-    string nama;
-    DetailAlamat alamat;
-    int umur;
-};
-
-int main()
-{
-    //Deklarasi obyek dari struct orang
-    orang mhs;
-    ///isi objek
+///isi objek
     cout << "Nama Mahasiswa:";
     getline(cin, mhs.nama);
     cout << "Alamat Desa :";
@@ -24,8 +7,6 @@ int main()
     getline(cin, mhs.alamat.kota);
     cout << "Umur:";
     cin >> mhs.umur;
-    cin.ignore();
-    
     cout << endl;
     //Menampilkan Isi Obyek
     cout << "Nama : " << mhs.nama << endl;
